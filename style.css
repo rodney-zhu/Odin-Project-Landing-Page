@@ -1,14 +1,16 @@
+body{
+    font-family: 'Roboto', arial;
+    
+}
 
-
-.container1{
+.section1{
     background-color: #1F2937;
     padding: 10px 200px;
     
 }
 
 .header-logo{
-    color:white;
-    font-family: 'roboto', sans-serif;                                   
+    color:white;                                   
     font-size: 24px;
 }
 
@@ -29,7 +31,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
-    outline: 1px dotted red;
+   
 }
 
 .links{
@@ -41,7 +43,6 @@ ul{
 .main-text{
     font-size: 48px;
     font-weight:bolder;
-    font-family: 'roboto', sans-serif;
     color: #F9FAF8;
     
 }
@@ -56,7 +57,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 1px dotted red;
+   
 }
 
 .content{
@@ -78,3 +79,12 @@ button{
     border-radius: 8px;
 }
 
+/* section 2 */
+
+.section2{
+    text-align: center;
+}
+
+.information-header{
+    font-size: 36px;
+}
