@@ -2,13 +2,13 @@
 
 .container1{
     background-color: #1F2937;
-    
+    padding: 10px 200px;
     
 }
 
 .header-logo{
     color:white;
-    font-family: 'Hero New', sans-serif;                                   
+    font-family: 'roboto', sans-serif;                                   
     font-size: 24px;
 }
 
@@ -27,9 +27,9 @@ ul{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 8px;
     align-items: center;
     margin-bottom: 60px;
+    outline: 1px dotted red;
 }
 
 .links{
@@ -41,24 +41,40 @@ ul{
 .main-text{
     font-size: 48px;
     font-weight:bolder;
-    font-family: 'Hero New', sans-serif;
+    font-family: 'roboto', sans-serif;
     color: #F9FAF8;
+    
 }
 
 .secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px dotted red;
 }
 
 .content{
-    display: flex;
-    
-    ;
-
+    width: 300px;
 }
 
-.image-container{
-    background-color: grey;
-    width: 600px;
+
+img{
+    width: 300px;   
 }
-    
+
+
+
+
+button{
+    background-color:#3882F6;
+    color:white;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+
