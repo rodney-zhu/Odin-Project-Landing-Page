@@ -17,9 +17,9 @@
         
     }
 
-    .header-logo{
-        color:white;                                   
-        font-size: 24px;
+    .header-logo img{
+        width: 50px;
+        height: 50px;
     }
 
     a{
@@ -42,11 +42,17 @@
     
     }
 
-    .links{
+    
+
+    .header-links{
         display: flex;
         gap: 16px;
         color: #E5E7EB;
     }
+
+/* hero-section */
+
+
 
     .main-text{
         font-size: 48px;
@@ -76,8 +82,6 @@
     img{
         width: 300px;   
     }
-
-
 
 
     button{
@@ -115,3 +119,7 @@
         border: 4px solid #3882F6;
         border-radius: 15px;
     }
+
+
+ /* footer-section */   
+
