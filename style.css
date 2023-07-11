@@ -100,6 +100,7 @@
 
   /* information-section */
 
+    
     .information-title{
         font-size: 36px;
         font-weight: bolder;
@@ -125,11 +126,48 @@
 
     
     .information-container .text{
-        font-weight: bolder
+        font-weight: bolder;
         color: ;
         margin-bottom: 40px;
     }
 
+ /* quote-section */  
+
+.quote-section{
+    background-color: #E5E7EB;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    border: dotted red;
+    padding: 0px 200px;
+}
+
+.signature{
+    padding-bottom: 20px;
+    padding-right: 50px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+
+}
+
+
+.quote-section .text{
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font: #1F2937;
+    padding: 30px;
+}
+
+ /* call to action-section */  
+
+
+
 
  /* footer-section */   
 
+ .footer-section{
+    background-color: #1F2937;
+    color: white;
+    padding: 40px
+}
