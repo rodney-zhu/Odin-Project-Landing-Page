@@ -55,14 +55,14 @@
 
 
 
-    .main-text{
+    h1{
         font-size: 48px;
         font-weight:bolder;
         color: #F9FAF8;
         
     }
 
-    .secondary-text{
+    p{
         font-size: 18px;
         color: #E5E7EB;
         margin-bottom: 10px;
