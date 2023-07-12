@@ -135,36 +135,34 @@
 
 .quote-section{
     background-color: #E5E7EB;
-    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
-}
-
-.signature{
-    padding-bottom: 20px;
-    padding-right: 50px;
-    font-family: 'Roboto', arial;
-    text-align: right;
-    margin: 0 80px;
-
+    justify-content: center;
+    border: dotted red;
 }
 
 
 .quote-section .text{
-    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     font: #1F2937;
-    padding: 30px 200px;
+    border: dotted red;
+    margin: 0px 500px;
 }
 
+.signature{
+    padding: 50px 20px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+    border: dotted red;
+    margin: 0px 500px;
+}
  /* call-to-action-section */  
 
 .call-to-action-section{
 
     background-color: #3882F6 ;
-    margin: 50px 300px;
+    margin: 50px 500px;
     padding: 50px 50px;
     display: flex;
     align-items: center;
