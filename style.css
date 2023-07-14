@@ -144,6 +144,7 @@ background-color: #E5E7EB;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
 }
 
 
@@ -153,6 +154,7 @@ font-style: italic;
 font: #1F2937;
 padding-top: 80px;
 margin: 0px 500px;
+
 }
 
 .signature{
@@ -161,6 +163,7 @@ text-align: right;
 font-weight: bolder;
 margin: 0px 500px;
 margin-bottom: 80px;
+
 }
 /* call-to-action-section */  
 
