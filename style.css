@@ -28,6 +28,7 @@ body{
         width: 1000px;
         margin-bottom: 100px;
         
+        
     }
 
         .header-logo img{
@@ -145,13 +146,17 @@ justify-content: center;
 
 }
 
+.quote-container{
+    border: dotted red;
+margin: 0 500px;
+}
 
 .quote-section .text{
 font-size: 36px;
 font-style: italic;
 font: #1F2937;
 padding-top: 80px;
-margin: 0px 700px;
+margin: 0px 00px;
 
 }
 
@@ -159,7 +164,7 @@ margin: 0px 700px;
 font-family: 'Roboto', arial;
 text-align: right;
 font-weight: bolder;
-margin: 0px 700px;
+
 margin-bottom: 80px;
 
 }
@@ -168,7 +173,7 @@ margin-bottom: 80px;
 .call-to-action-section{
 
 background-color: #3882F6 ;
-margin: 50px 700px;
+margin: 50px 500px;
 padding: 50px 50px;
 display: flex;
 align-items: center;
