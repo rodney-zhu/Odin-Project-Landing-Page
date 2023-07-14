@@ -19,10 +19,9 @@ body{
     justify-content: center;
     align-items: center;
     
-    
 }
 
-    .header{
+    .nav-bar{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -35,7 +34,6 @@ body{
             width: 200px;
             transform: scaleX(-1);
         }
-
 
 
         ul{
