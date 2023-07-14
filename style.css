@@ -9,9 +9,9 @@ body{
     font-family: 'Roboto', arial;
 }
 
-/* Navbar Section */
+/* First Section */
 
-.navbar-section{
+.header-section{
     background-color: #1F2937;
     padding: 10px 200px;
     
@@ -55,14 +55,20 @@ padding: 0;
     
 }
 
-/* hero-section */
+/* Utah Section in First Section*/
+
+.content{
+    width: 400px;
+    text-align: left;
 
 
+}
 
 h1{
     font-size: 48px;
     font-weight:bolder;
     color: #F9FAF8;
+    margin: 0;
     
 }
 
@@ -70,23 +76,28 @@ h1{
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
+    
+    
 }
 
 .content-container{
     display: flex;
     gap: 80px;
     justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
-}
-
-.content{
-    width: 300px;
+    
 }
 
 
-img{
-    width: 300px;   
+
+h1{
+    
+}
+
+
+.image-container img{
+    height: 280px; 
+      
 }
 
 
@@ -104,7 +115,7 @@ button{
     margin-bottom: 100px;;
 }
 
-/* information-section */
+/* 4 Parks Section */
 
 
 .information-title{
@@ -143,7 +154,6 @@ background-color: #E5E7EB;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
 }
 
 
