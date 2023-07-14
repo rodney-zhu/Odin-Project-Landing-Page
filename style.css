@@ -27,37 +27,43 @@ body{
         transform: scaleX(-1);
     }
 
+
     a{
         color: #E5E7EB;
         text-decoration: none;
         font-size: 40px;
         gap: 100px;
-        border: dotted red;
-        
+            
+            
     }
 
-    ul{
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    }
 
-    .nav-bar{
+
+    .header{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 1000px;
         margin-bottom: 100px;
+        border: dotted red;
     }
 
-
-
-    .header-links{
-        display: flex;
-        gap: 16px;
-        color: #E5E7EB;
+        .header-logo{
+            border: dotted red; 
+        }
         
-    }
+
+        ul{
+            display: flex;
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            gap: 70px;
+                color: #E5E7EB;
+                border: dotted red;
+            
+            }
+
 
 /* Utah Section in First Section*/
 
